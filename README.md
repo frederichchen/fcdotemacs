@@ -17,3 +17,21 @@ Most of the packages are downloaded through [Melpa](http://melpa.org/).
 I have just tested this on Linux platform. By the way, I use archlinux.
 
 我仅仅在 Linux 环境下测试过这个配置，顺便说一句，我用的是 archlinux 。
+
+## Directories（目录结构）
+
+init.el is used for basic settings and importing other .el files.
+
+init.el 文件用来做一些基础设置和导入其他的 .el 文件。
+
+themes directory is used for storing theme files.
+
+themes 目录用于存储主题文件。
+
+plugins directory is used for storing every downloaded package. I have deleted the xxx-autoloads.el and the xxx-pkg.el files in every package.
+
+plugins 目录用来存放所有下载的包，我删除了每个包中的 xxx-autoloads.el 和 xxx-pkg.el 文件。
+
+lisp directory is used for storing the configurations for each package, in which all files are named as "init-xxx.el".
+
+lisp 目录用来存放每一个包的配置，文件都用"init-xxx.el"的形式来命名。
